@@ -1,0 +1,58 @@
+{
+    "components": {
+        "hdc": {
+            "configurations": {
+                "CREATE": {
+                    "production": "owner",
+                    "qa1": "developer"
+                },
+                "DELETE": {
+                    "production": "owner",
+                    "qa1": "developer"
+                },
+                "GET": {
+                    "production": "engineer",
+                    "qa1": "engineer"
+                },
+                "LIST": {
+                    "production": "developer",
+                    "qa1": "engineer"
+                },
+                "UPDATE": {
+                    "production": "owner",
+                    "qa1": "developer"
+                }
+            },
+            "roles": {
+                "developer": "svc-hdc-developer@abc.com",
+                "owner": "svc-hdc-owner@abc.com"
+            },
+            "secrets": {
+                "ACCESS": {
+                    "production": "owner",
+                    "qa1": "developer"
+                },
+                "CREATE": {
+                    "production": "owner",
+                    "qa1": "developer"
+                },
+                "DELETE": {
+                    "production": "owner",
+                    "qa1": "developer"
+                },
+                "GET": {
+                    "production": "engineer",
+                    "qa1": "engineer"
+                },
+                "LIST": {
+                    "production": "engineer",
+                    "qa1": "engineer"
+                },
+                "UPDATE": {
+                    "production": "owner",
+                    "qa1": "developer"
+                }
+            }
+        }
+    }
+}
